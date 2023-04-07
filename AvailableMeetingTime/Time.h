@@ -57,5 +57,9 @@ public:
 	/// <returns></returns>
 	string toString();
 
+	/// <summary>
+	/// Adds minutes to an existing time and changes hour and minute
+	/// </summary>
+	/// <param name="minutes">Minutes to be added</param>
 	void addMinutes(int minutes);
 };
